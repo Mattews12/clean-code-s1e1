@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.new-task__wrapper {
+.add-element__wrapper {
   display: flex;
 }
 
@@ -152,7 +152,7 @@ li>input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed__tasks label {
   text-decoration: line-through;
   color: #888;
 }
